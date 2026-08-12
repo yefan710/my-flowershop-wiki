@@ -1,0 +1,10 @@
+node_modules/
+.next/
+out/
+.wrangler/
+work/
+.codex_py_logs/
+.env
+.env.*
+*.log
+

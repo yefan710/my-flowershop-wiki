@@ -1,0 +1,36 @@
+{
+  "name": "my-flower-shop-wiki",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "validate:favicon": "node scripts/validate-favicon.mjs",
+    "validate:gate1": "node scripts/validate-humanizer-gates.mjs gate1",
+    "validate:gate2": "node scripts/validate-humanizer-gates.mjs gate2",
+    "validate:production-url": "node scripts/validate-production-url.mjs",
+    "check:local": "npm run lint && npm run build && npm run validate:favicon && npm run validate:gate2",
+    "check": "npm run validate:production-url && npm run check:local",
+    "release-check": "npm run check"
+  },
+  "dependencies": {
+    "next": "^16.3.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "^16.3.0",
+    "typescript": "^5"
+  },
+  "overrides": {
+    "nanoid": "3.3.17",
+    "postcss": "8.5.26",
+    "sharp": "0.35.3"
+  }
+}
