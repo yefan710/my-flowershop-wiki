@@ -56,13 +56,13 @@ export const sourceLinks = [
     name: "Build the best store in My Flower Shop",
     publisher: "AccelToWin",
     url: "https://www.youtube.com/watch?v=ab6vz83v4d4&t=724s",
-    use: "The homepage hero uses the full gameplay frame at 12:04 with a visible source credit.",
+    use: "A dated view of the working flower shop interior used in the homepage and staff guide.",
   },
   {
     name: "Roblox: My Flower Shop",
     publisher: "Velace",
     url: "https://www.youtube.com/watch?v=GI2Wkuz6z6o&t=3s",
-    use: "The beginner feature uses the full gameplay frame at 0:03 with a visible source credit.",
+    use: "The beginner feature plays this planting walkthrough in place, beginning at 0:03.",
   },
   {
     name: "How to buy and plant flower seeds and harvest plants",

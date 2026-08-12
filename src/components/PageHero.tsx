@@ -4,8 +4,6 @@ import type { ReactNode } from "react";
 type PageHeroMedia = {
   src: string;
   alt: string;
-  credit: string;
-  href?: string;
 };
 
 type PageHeroProps = {
@@ -29,9 +27,6 @@ export function PageHero({ eyebrow, title, intro, children, media }: PageHeroPro
         {media ? (
           <figure className="page-hero-media">
             <Image src={media.src} alt={media.alt} width={1920} height={1080} priority sizes="(max-width: 980px) 100vw, 42vw" />
-            <figcaption>
-              {media.href ? <a href={media.href} target="_blank" rel="noreferrer">{media.credit}</a> : media.credit}
-            </figcaption>
           </figure>
         ) : null}
       </div>

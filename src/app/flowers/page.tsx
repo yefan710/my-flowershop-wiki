@@ -20,8 +20,6 @@ export default function FlowersPage() {
         media={{
           src: "/hero-bg.jpg",
           alt: "Flower beds, a greenhouse, and an offline growth message in My Flower Shop",
-          credit: "Official My Flower Shop media · offline growth",
-          href: "https://www.roblox.com/games/93028168925975/My-Flower-Shop",
         }}
       >
         <div className="inline-actions"><Link className="button button-primary" href="/beginner-guide#plant">Follow the planting route</Link><Link className="button button-secondary" href="/growth">Compare growth supplies</Link></div>

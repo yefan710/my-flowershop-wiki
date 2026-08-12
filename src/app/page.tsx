@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { GameStatus } from "@/components/GameStatus";
+import { GameplayVideo } from "@/components/GameplayVideo";
 import { Icon } from "@/components/Icon";
 import { JsonLd } from "@/components/JsonLd";
 import { site } from "@/data/site";
@@ -133,31 +134,20 @@ export default function Home() {
             <p className="hero-disclosure">Fan-made guide. Not operated by Roblox or Magic Box Games.</p>
           </div>
         </div>
-        <a
-          className="hero-frame-credit"
-          href="https://www.youtube.com/watch?v=ab6vz83v4d4&t=724s"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Gameplay frame · AccelToWin · 12:04
-        </a>
       </section>
 
       <section className="home-section surface-base" data-surface-family="arena-base" aria-labelledby="beginner-heading">
         <div className="page-shell">
           <div className="beginner-feature">
-            <figure className="beginner-media">
-              <Image
-                src="/beginner-gameplay.jpg"
-                alt="A player planting a tulip seed beside the flower shop in My Flower Shop"
-                width={1920}
-                height={1080}
-                sizes="(max-width: 980px) 100vw, 58vw"
+            <div className="beginner-media">
+              <GameplayVideo
+                poster="/beginner-gameplay.jpg"
+                posterAlt="A player planting a tulip seed beside the flower shop in My Flower Shop"
+                startAt={3}
+                title="the beginner planting walkthrough"
+                videoId="GI2Wkuz6z6o"
               />
-              <figcaption>
-                Full gameplay frame · <a href="https://www.youtube.com/watch?v=GI2Wkuz6z6o&t=3s" target="_blank" rel="noreferrer">Velace at 0:03</a>
-              </figcaption>
-            </figure>
+            </div>
             <div className="beginner-copy">
               <p className="eyebrow">Your first route</p>
               <h2 id="beginner-heading">Learn one complete shop loop.</h2>

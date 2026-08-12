@@ -17,7 +17,7 @@ export default function MoneyGuidePage() {
         eyebrow="Cash and shop spending"
         title="Use early quests to fund the next part of the loop."
         intro="Two captured quests paid 100 and 150 cash for basic planting, harvesting, stocking, and checkout actions. Treat those as dated targets, then compare each purchase with the price shown in your current server."
-        media={{ src: "/selling-flowers.png", alt: "Flowers placed at the checkout counter in My Flower Shop", credit: "Official My Flower Shop media · customer sales", href: "https://www.roblox.com/games/93028168925975/My-Flower-Shop" }}
+        media={{ src: "/selling-flowers.png", alt: "Flowers placed at the checkout counter in My Flower Shop" }}
       >
         <div className="inline-actions"><Link className="button button-primary" href="/beginner-guide#sell">Start at the sales step</Link><a className="button button-secondary" href="https://www.youtube.com/watch?v=-P-g5GgpWFM" target="_blank" rel="noreferrer">Watch the dated cash guide</a></div>
       </PageHero>

@@ -9,7 +9,7 @@ export const metadata: Metadata = { title: "My Flower Shop beginner guide", desc
 export default function BeginnerGuidePage() {
   return (
     <>
-      <PageHero eyebrow="Beginner guide" title="Plant cheap seeds, clear quests, then expand." intro="Start with the 1-cash Tulip or 2-cash Rose shown in Aug 8 gameplay. Harvest, stock the shop, use checkout, and complete the visible early quests before deciding between displays, Advertising, staff, or expansion." media={{ src: "/beginner-gameplay.jpg", alt: "A player planting a tulip seed beside the flower shop in My Flower Shop", credit: "Gameplay frame · Velace · 0:03", href: "https://www.youtube.com/watch?v=GI2Wkuz6z6o&t=3s" }}>
+      <PageHero eyebrow="Beginner guide" title="Plant cheap seeds, clear quests, then expand." intro="Start with the 1-cash Tulip or 2-cash Rose shown in Aug 8 gameplay. Harvest, stock the shop, use checkout, and complete the visible early quests before deciding between displays, Advertising, staff, or expansion." media={{ src: "/beginner-gameplay.jpg", alt: "A player planting a tulip seed beside the flower shop in My Flower Shop" }}>
         <div className="inline-actions"><a className="button button-primary" href="#plant">Start with planting</a><a className="button button-secondary" href={site.gameUrl} target="_blank" rel="noreferrer">Play on Roblox</a></div>
       </PageHero>
       <ContentSection id="plant" eyebrow="Step 1" title="Buy a seed you can cycle quickly." intro="The captured menu showed Tulip at 1 cash and 6 seconds, Rose at 2 cash and 15 seconds, and Daisy at 5 cash and 30 seconds.">

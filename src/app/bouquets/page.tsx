@@ -20,8 +20,6 @@ export default function BouquetsPage() {
         media={{
           src: "/beginner-guide.png",
           alt: "A bouquet crafting table with flowers and tools in My Flower Shop",
-          credit: "Official My Flower Shop media · bouquet crafting",
-          href: "https://www.roblox.com/games/93028168925975/My-Flower-Shop",
         }}
       >
         <div className="inline-actions"><Link className="button button-primary" href="/beginner-guide#craft">Follow the crafting step</Link><Link className="button button-secondary" href="/flowers">Review flower supply</Link></div>
