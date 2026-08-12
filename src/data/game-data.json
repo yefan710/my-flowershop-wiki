@@ -1,0 +1,67 @@
+{
+  "observedAt": "2026-08-12",
+  "sourceBuild": "Gameplay videos published Aug 8, 2026",
+  "flowers": [
+    { "name": "Tulip", "rarity": "Common", "growthTime": "6 seconds", "seedCost": "1 cash", "unlockLevel": "Shown available", "sourceUrl": "https://www.youtube.com/watch?v=WH8jO_1LBh8", "timestamp": "0:26" },
+    { "name": "Rose", "rarity": "Common", "growthTime": "15 seconds", "seedCost": "2 cash", "unlockLevel": "Shown available", "sourceUrl": "https://www.youtube.com/watch?v=WH8jO_1LBh8", "timestamp": "0:26" },
+    { "name": "Daisy", "rarity": "Common", "growthTime": "30 seconds", "seedCost": "5 cash", "unlockLevel": "Level 2 session", "sourceUrl": "https://www.youtube.com/watch?v=S97Z4J05VmU", "timestamp": "0:28" },
+    { "name": "Dandelion", "rarity": "Uncommon", "growthTime": "1 minute", "seedCost": null, "unlockLevel": "Level 3", "sourceUrl": "https://www.youtube.com/watch?v=S97Z4J05VmU", "timestamp": "0:28" },
+    { "name": "Geranium", "rarity": "Uncommon", "growthTime": "2 minutes 30 seconds", "seedCost": null, "unlockLevel": "Level 5", "sourceUrl": "https://www.youtube.com/watch?v=-P-g5GgpWFM", "timestamp": "2:31" },
+    { "name": "Hibiscus", "rarity": "Uncommon", "growthTime": "5 minutes", "seedCost": null, "unlockLevel": "Level 7", "sourceUrl": "https://www.youtube.com/watch?v=-P-g5GgpWFM", "timestamp": "2:31" },
+    { "name": "Lily", "rarity": "Uncommon", "growthTime": "7 minutes 30 seconds", "seedCost": null, "unlockLevel": "Level 10", "sourceUrl": "https://www.youtube.com/watch?v=-P-g5GgpWFM", "timestamp": "2:31" },
+    { "name": "Peony", "rarity": "Uncommon", "growthTime": "15 minutes", "seedCost": null, "unlockLevel": "Level 15", "sourceUrl": "https://www.youtube.com/watch?v=-P-g5GgpWFM", "timestamp": "2:31" }
+  ],
+  "supplies": [
+    { "name": "Watering Can", "effect": "Speeds up grow time by 1 minute", "cashCost": 100, "gemCost": 5, "sourceUrl": "https://www.youtube.com/watch?v=02kx7GcM-kA", "timestamp": "0:18" },
+    { "name": "Lock", "effect": "Prevents a favourite flower from being harvested", "cashCost": 250, "gemCost": 10, "sourceUrl": "https://www.youtube.com/watch?v=02kx7GcM-kA", "timestamp": "0:20", "note": "The card also shows 20x, but the video does not explain what that number means." },
+    { "name": "Fertilizer", "effect": "Adds 1 flower to harvest yield", "cashCost": 500, "gemCost": 15, "sourceUrl": "https://www.youtube.com/watch?v=02kx7GcM-kA", "timestamp": "0:22" },
+    { "name": "Silver Watering Can", "effect": "Speeds up grow time by 5 minutes", "cashCost": 500, "gemCost": 15, "sourceUrl": "https://www.youtube.com/watch?v=02kx7GcM-kA", "timestamp": "0:24" }
+  ],
+  "arrangementDesigns": [
+    { "name": "Small Bouquet", "flowersRequired": 1, "unlockLevel": null, "sourceUrl": "https://www.youtube.com/watch?v=WH8jO_1LBh8", "timestamp": "0:42" },
+    { "name": "Glass Vase", "flowersRequired": 2, "unlockLevel": 5, "sourceUrl": "https://www.youtube.com/watch?v=WH8jO_1LBh8", "timestamp": "0:42" },
+    { "name": "Big Bouquet", "flowersRequired": 3, "unlockLevel": 10, "sourceUrl": "https://www.youtube.com/watch?v=WH8jO_1LBh8", "timestamp": "0:42" },
+    { "name": "Simple Pot", "flowersRequired": 5, "unlockLevel": 15, "sourceUrl": "https://www.youtube.com/watch?v=WH8jO_1LBh8", "timestamp": "0:42" },
+    { "name": "Vase", "flowersRequired": 6, "unlockLevel": 20, "sourceUrl": "https://www.youtube.com/watch?v=WH8jO_1LBh8", "timestamp": "1:02" },
+    { "name": "Tall Vase", "flowersRequired": 7, "unlockLevel": 30, "sourceUrl": "https://www.youtube.com/watch?v=WH8jO_1LBh8", "timestamp": "1:02" },
+    { "name": "Antique Vase", "flowersRequired": 9, "unlockLevel": 40, "sourceUrl": "https://www.youtube.com/watch?v=WH8jO_1LBh8", "timestamp": "1:02" },
+    { "name": "Spring Basket", "flowersRequired": 12, "unlockLevel": 50, "sourceUrl": "https://www.youtube.com/watch?v=WH8jO_1LBh8", "timestamp": "1:02" }
+  ],
+  "arrangementStyles": ["Classic", "Romantic", "Elegant", "Spring", "Autumn", "Blush", "Tropical", "Midnight", "Vintage"],
+  "quests": [
+    { "name": "Budding Florist", "requirements": ["Plant Rose Seed x3", "Harvest x2"], "reward": "100 cash", "sourceUrl": "https://www.youtube.com/watch?v=-P-g5GgpWFM", "timestamp": "3:43" },
+    { "name": "Flower Power", "requirements": ["Stock x5", "Checkout x3"], "reward": "150 cash", "sourceUrl": "https://www.youtube.com/watch?v=-P-g5GgpWFM", "timestamp": "3:43" }
+  ],
+  "staff": [
+    { "name": "Robin", "role": "Gardener", "hireCost": "1,500 cash", "sourceUrl": "https://www.youtube.com/watch?v=51A1WZMnf_c", "timestamp": "0:27" },
+    { "name": "Lily", "role": "Gardener", "hireCost": "1,500 cash", "sourceUrl": "https://www.youtube.com/watch?v=51A1WZMnf_c", "timestamp": "0:27" },
+    { "name": "Nur", "role": "Gardener", "hireCost": "1,500 cash", "sourceUrl": "https://www.youtube.com/watch?v=51A1WZMnf_c", "timestamp": "0:27" }
+  ],
+  "upgrades": [
+    { "name": "Shop expansion", "level": "Level 2 to 3", "cost": "5,000 cash", "effect": null, "sourceUrl": "https://www.youtube.com/watch?v=S6G1hq8_njY", "timestamp": "0:30" },
+    { "name": "Garden expansion", "level": "Level 1 to 2", "cost": "2,000 cash", "effect": null, "sourceUrl": "https://www.youtube.com/watch?v=S6G1hq8_njY", "timestamp": "0:30" },
+    { "name": "Advertising", "level": "Level 0 to 1", "cost": "200 cash", "effect": "Boosts customer traffic", "sourceUrl": "https://www.youtube.com/watch?v=S6G1hq8_njY", "timestamp": "0:30" },
+    { "name": "Advertising", "level": "Level 1 to 2", "cost": "600 cash", "effect": "Boosts customer traffic", "sourceUrl": "https://www.youtube.com/watch?v=S6G1hq8_njY", "timestamp": "0:40" }
+  ],
+  "displays": [
+    { "name": "Small Flower Display", "cost": "20 cash", "timestamp": "0:38" },
+    { "name": "Bouquet Display", "cost": "50 cash", "timestamp": "0:38" },
+    { "name": "Flower Display", "cost": "50 cash", "timestamp": "0:38" },
+    { "name": "Wooden Flower Box", "cost": "200 cash", "timestamp": "0:39" },
+    { "name": "Small Bouquet Table", "cost": "200 cash", "timestamp": "0:39" },
+    { "name": "Big Flower Box", "cost": "200 cash", "timestamp": "0:40" },
+    { "name": "Picket Flower Box", "cost": "200 cash", "timestamp": "0:40" },
+    { "name": "Wooden Basket", "cost": "250 cash", "timestamp": "0:41" },
+    { "name": "Bouquet Table", "cost": "300 cash", "timestamp": "0:42" },
+    { "name": "Bouquet Shelf", "cost": "400 cash", "timestamp": "0:43" },
+    { "name": "Tall Bouquet Shelf", "cost": "500 cash", "timestamp": "0:44" }
+  ],
+  "displaySourceUrl": "https://www.youtube.com/watch?v=N_3ZvYuxGiY",
+  "blocked": [
+    "Base flower and arrangement sale values",
+    "Profit per minute and best money rankings",
+    "Exact gardener behaviour and all cashier details",
+    "Quality Fertilizer and Golden Watering Can values",
+    "Current redeemable codes"
+  ]
+}

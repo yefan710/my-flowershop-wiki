@@ -2,26 +2,42 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ContentSection } from "@/components/ContentSection";
 import { PageHero } from "@/components/PageHero";
+import gameData from "@/data/game-data.json";
 
 export const metadata: Metadata = {
-  title: "My Flower Shop flower growth and offline progress",
-  description: "Understand flower growth, supplies, harvesting, and offline progress in My Flower Shop, with dated gameplay references and no fixed guessed timers.",
+  title: "My Flower Shop growth supplies and prices",
+  description: "Compare dated Watering Can, Lock, Fertilizer, and Silver Watering Can effects and costs in My Flower Shop.",
   alternates: { canonical: "/growth" },
-  robots: { index: false, follow: true },
 };
 
 export default function GrowthPage() {
   return (
     <>
-      <PageHero eyebrow="Growth and supplies" title="Plan with a timer tied to a game build." intro="Flowers grow and can continue growing while you are offline. Exact timers, supply effects, and caps may come from dated videos, screenshots, or web guides. This revision has not yet processed those values into one same-build table.">
-        <div className="inline-actions"><Link className="button button-primary" href="/flowers">Open the flower loop</Link><a className="button button-secondary" href="https://www.youtube.com/watch?v=02kx7GcM-kA" target="_blank" rel="noreferrer">Watch the supplies reference</a></div>
+      <PageHero eyebrow="Growth and supplies" title="Choose a supply for one specific job." intro="Watering cans reduce the displayed grow time, Fertilizer adds one flower to a harvest, and Lock protects a favourite flower from harvesting. These values come from an Aug 8 gameplay menu and may change in a later build.">
+        <div className="inline-actions"><Link className="button button-primary" href="/flowers">Compare flower timers</Link><a className="button button-secondary" href="https://www.youtube.com/watch?v=02kx7GcM-kA" target="_blank" rel="noreferrer">Watch the supplies source</a></div>
       </PageHero>
-      <ContentSection eyebrow="A safe planning loop" title="Check, plant, leave, then verify when you return.">
+
+      <ContentSection eyebrow="Supplies table" title="Effects and two payment options" intro={`Observed ${gameData.observedAt} from the supplies menu in a video published Aug 8, 2026. Cash and gems are alternative prices shown on the same cards.`}>
+        <table className="system-table">
+          <thead><tr><th>Supply</th><th>Observed effect</th><th>Cash</th><th>Gems</th><th>Source</th></tr></thead>
+          <tbody>
+            {gameData.supplies.map((supply) => (
+              <tr key={supply.name}>
+                <td>{supply.name}</td><td>{supply.effect}{supply.note ? ` ${supply.note}` : ""}</td><td>{supply.cashCost}</td><td>{supply.gemCost}</td>
+                <td><a className="text-link" href={supply.sourceUrl} target="_blank" rel="noreferrer">Video at {supply.timestamp}</a></td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </ContentSection>
+
+      <ContentSection eyebrow="Decision check" title="Match the tool to the timer in front of you." raised>
         <ol className="step-list">
-          <li><div><h3>Read the date on any growth table.</h3><p>A fixed timer is usable when its flower, conditions, source, and game-build date stay together. Compare an older value with the current display.</p></div></li>
-          <li><div><h3>Check any supply effect before using it.</h3><p>A dated Aug 8 tutorial covers supplies used to make plants grow faster. Visible values from that source belong to the Aug 8 build unless a newer source updates them.</p></div></li>
-          <li><div><h3>Verify offline progress after rejoining.</h3><p>The official description confirms offline growth, but it does not publish the exact rate or limit.</p></div></li>
+          <li><div><h3>Read the remaining grow time.</h3><p>A one-minute Watering Can has a different value on a 30-second Daisy than on a 15-minute Peony. Confirm how the current interface handles extra time reduction.</p></div></li>
+          <li><div><h3>Use Fertilizer when yield is the constraint.</h3><p>The captured card says it adds one flower. It does not establish the normal yield or the sale value of that extra flower.</p></div></li>
+          <li><div><h3>Protect stock with Lock only if needed.</h3><p>The menu says Lock prevents harvesting. Its visible 20x label is not explained in the source, so this guide does not assign that number a meaning.</p></div></li>
         </ol>
+        <div className="notice">Quality Fertilizer and Golden Watering Can names were visible lower in the menu, but their complete cards were not readable. Their effects and costs remain unpublished.</div>
       </ContentSection>
     </>
   );

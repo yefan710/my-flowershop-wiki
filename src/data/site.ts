@@ -10,10 +10,10 @@ export const site = {
   universeId: "10324001605",
   genre: "Simulation / Tycoon",
   gameUrl: "https://www.roblox.com/games/93028168925975/My-Flower-Shop",
-  checkedAt: "2026-08-11T18:41:00+08:00",
-  checkedLabel: "Aug 11, 2026",
-  playing: 7812,
-  favorites: 105848,
+  checkedAt: "2026-08-12T10:00:00+08:00",
+  checkedLabel: "Aug 12, 2026",
+  playing: 7183,
+  favorites: 117537,
   navigation: [
     { href: "/beginner-guide", label: "Beginner guide" },
     { href: "/controls", label: "Controls" },
@@ -50,7 +50,7 @@ export const sourceLinks = [
     name: "How to play My Flower Shop full guide",
     publisher: "VendoPlus",
     url: "https://www.youtube.com/watch?v=gmWVnToeDCk",
-    use: "A dated gameplay source for beginner actions and interface labels. Facts can be extracted with their context and Aug 8, 2026 date.",
+    use: "A dated gameplay source for beginner actions and interface labels, preserved with its Aug 8, 2026 context.",
   },
   {
     name: "Build the best store in My Flower Shop",
@@ -98,7 +98,7 @@ export const sourceLinks = [
     name: "How to craft flowers on the craft table",
     publisher: "VendoPlus",
     url: "https://www.youtube.com/watch?v=WH8jO_1LBh8",
-    use: "A dated gameplay source from which recipe ingredients, amounts, and outputs may be extracted for the Aug 8, 2026 build.",
+    use: "The source for arrangement designs, flower capacities, unlock levels, style names, and visible seed cards in the Aug 8, 2026 build. It shows a flexible craft menu, not fixed flower recipes.",
   },
   {
     name: "How to add and remove buildings",
@@ -130,19 +130,19 @@ export const reviewedPages = [
   {
     href: "/flowers",
     label: "Flowers",
-    title: "Understand what the flower system does",
-    summary: "See how planting, growth, harvesting, and offline progress connect. Dated prices and timers can be added after field extraction.",
+    title: "Compare seed costs, timers, and unlocks",
+    summary: "Check eight flowers observed in Aug 8 gameplay, with the video time and any missing price kept visible.",
   },
   {
     href: "/bouquets",
     label: "Bouquets",
-    title: "Know when crafting enters the loop",
-    summary: "Connect harvested flowers to arrangements and customer sales. Recipes can come from dated videos, screenshots, or guides after field extraction.",
+    title: "Choose an arrangement by capacity",
+    summary: "Compare eight designs from 1 to 12 flowers and see the captured unlock levels before opening the craft table.",
   },
   {
     href: "/money-guide",
     label: "Money guide",
-    title: "Trace cash back to the shop loop",
-    summary: "Connect planting, crafting, customer sales, and shop spending. Price tables keep their source date and version context.",
+    title: "Use early quests to plan cash",
+    summary: "See two observed quest rewards, then compare staff, upgrade, and display costs without a guessed profit ranking.",
   },
 ] as const;

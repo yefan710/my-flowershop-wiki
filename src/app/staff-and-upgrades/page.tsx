@@ -2,39 +2,32 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ContentSection } from "@/components/ContentSection";
 import { PageHero } from "@/components/PageHero";
+import gameData from "@/data/game-data.json";
 
 export const metadata: Metadata = {
-  title: "My Flower Shop staff and upgrades",
-  description: "Understand staff, upgrades, decoration, and shop growth in My Flower Shop, with current-game checks for every changing cost and effect.",
+  title: "My Flower Shop staff, hire costs and upgrades",
+  description: "Check dated gardener hire costs, expansion prices, Advertising costs, and current Roblox game pass prices for My Flower Shop.",
   alternates: { canonical: "/staff-and-upgrades" },
 };
 
 export default function StaffAndUpgradesPage() {
   return (
     <>
-      <PageHero
-        eyebrow="Staff and upgrades"
-        title="Choose the shop problem before the purchase."
-        intro="Start with the bottleneck: manual work, storage, growth speed, or appearance. Then compare the live role, cost, and effect before spending cash or Robux."
-        media={{
-          src: "/hero-gameplay.jpg",
-          alt: "A working flower shop interior with displays, a checkout, and players in My Flower Shop",
-          credit: "Gameplay frame · AccelToWin · 12:04",
-          href: "https://www.youtube.com/watch?v=ab6vz83v4d4&t=724s",
-        }}
-      >
+      <PageHero eyebrow="Staff and upgrades" title="Compare a 1,500-cash hire with the next upgrade." intro="The captured staff menu showed three Gardeners at 1,500 cash each. The upgrade menu showed cheaper Advertising levels and larger expansion costs. Their exact effects are not equally complete, so use the tables as a cost check rather than a best-buy ranking." media={{ src: "/hero-gameplay.jpg", alt: "A working flower shop interior with displays, a checkout, and players in My Flower Shop", credit: "Gameplay frame · AccelToWin · 12:04", href: "https://www.youtube.com/watch?v=ab6vz83v4d4&t=724s" }}>
         <div className="inline-actions"><a className="button button-primary" href="https://www.youtube.com/watch?v=51A1WZMnf_c" target="_blank" rel="noreferrer">Watch the dated staff guide</a><Link className="button button-secondary" href="/money-guide">Return to the cash loop</Link></div>
       </PageHero>
-      <ContentSection eyebrow="Decision guide" title="Match the system to the job you need done.">
-        <div className="content-grid">
-          <div className="content-card"><h3>Staff</h3><p>Inspect staff when manual shop work is the problem. A VendoPlus tutorial published Aug 8 can supply visible role and cost fields for that build once they are extracted with their context.</p></div>
-          <div className="content-card"><h3>Upgrades</h3><p>Inspect upgrades when a current shop limit is stopping the next loop. Read the live effect before buying.</p></div>
-          <div className="content-card"><h3>Decoration</h3><p>Use decoration when your goal is appearance or layout. Do not assume that a decorative change has a numeric effect unless the game says so.</p></div>
-          <div className="content-card"><h3>Game passes</h3><p>Roblox currently lists Bigger Backpack, 2X Cash, 2X Grow Speed, and Customize. Check the live Roblox purchase screen for current prices and full terms.</p></div>
-        </div>
+
+      <ContentSection eyebrow="Staff menu" title="Gardeners shown at the same hire cost" intro={`Observed ${gameData.observedAt} at 0:27 in a gameplay video published Aug 8, 2026. The level-2 session showed Gardener and Cashier categories with 0/1 slots.`}>
+        <table className="system-table"><thead><tr><th>Name</th><th>Role</th><th>Hire cost</th><th>Source</th></tr></thead><tbody>{gameData.staff.map((member) => <tr key={member.name}><td>{member.name}</td><td>{member.role}</td><td>{member.hireCost}</td><td><a className="text-link" href={member.sourceUrl} target="_blank" rel="noreferrer">Video at {member.timestamp}</a></td></tr>)}</tbody></table>
+        <div className="notice">The source does not clearly show what a Gardener performs after hiring. It also never opens the Cashier hire dialog. Exact Gardener behaviour, Cashier names, Cashier prices, and slot progression remain open.</div>
       </ContentSection>
-      <ContentSection eyebrow="Before buying" title="Keep every cost tied to its date." intro="The pass names and dated prices come from Roblox. Other upgrade values may come from videos, screenshots, or web guides. The site keeps exact values but rebuilds the explanation and table structure." raised>
-        <div className="inline-actions"><Link className="button button-primary" href="/game-passes">Open the game pass names</Link><Link className="button button-secondary" href="/official-links">Open the official experience</Link></div>
+
+      <ContentSection eyebrow="Upgrade menu" title="Four dated upgrade offers" raised>
+        <table className="system-table"><thead><tr><th>Upgrade</th><th>Level</th><th>Cost</th><th>Visible effect</th><th>Source</th></tr></thead><tbody>{gameData.upgrades.map((upgrade) => <tr key={`${upgrade.name}-${upgrade.level}`}><td>{upgrade.name}</td><td>{upgrade.level}</td><td>{upgrade.cost}</td><td>{upgrade.effect ?? "Not stated on captured card"}</td><td><a className="text-link" href={upgrade.sourceUrl} target="_blank" rel="noreferrer">Video at {upgrade.timestamp}</a></td></tr>)}</tbody></table>
+      </ContentSection>
+
+      <ContentSection eyebrow="Robux options" title="Use Roblox as the final pass price check." intro="At the Aug 11 check, Roblox listed Bigger Backpack at 79 Robux, 2X Cash at 499, 2X Grow Speed at 299, and Customize at 149. Prices and terms can change." raised>
+        <div className="inline-actions"><Link className="button button-primary" href="/game-passes">Open the pass list</Link><Link className="button button-secondary" href="/official-links">Open the official experience</Link></div>
       </ContentSection>
     </>
   );
