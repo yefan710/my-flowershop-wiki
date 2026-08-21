@@ -8,10 +8,11 @@
     "start": "next start",
     "lint": "eslint",
     "validate:favicon": "node scripts/validate-favicon.mjs",
+    "validate:ads": "node scripts/validate-adsterra.mjs",
     "validate:gate1": "node scripts/validate-humanizer-gates.mjs gate1",
     "validate:gate2": "node scripts/validate-humanizer-gates.mjs gate2",
     "validate:production-url": "node scripts/validate-production-url.mjs",
-    "check:local": "npm run lint && npm run build && npm run validate:favicon && npm run validate:gate2",
+    "check:local": "npm run lint && npm run build && npm run validate:favicon && npm run validate:ads && npm run validate:gate2",
     "check": "npm run validate:production-url && npm run check:local",
     "release-check": "npm run check"
   },
