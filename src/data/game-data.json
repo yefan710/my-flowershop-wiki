@@ -29,8 +29,8 @@
   ],
   "arrangementStyles": ["Classic", "Romantic", "Elegant", "Spring", "Autumn", "Blush", "Tropical", "Midnight", "Vintage"],
   "quests": [
-    { "name": "Budding Florist", "requirements": ["Plant Rose Seed x3", "Harvest x2"], "reward": "100 cash", "sourceUrl": "https://www.youtube.com/watch?v=-P-g5GgpWFM", "timestamp": "3:43" },
-    { "name": "Flower Power", "requirements": ["Stock x5", "Checkout x3"], "reward": "150 cash", "sourceUrl": "https://www.youtube.com/watch?v=-P-g5GgpWFM", "timestamp": "3:43" }
+    { "name": "Budding Florist", "requirements": ["Plant Rose Seed x3", "Harvest x2"], "reward": "100 cash", "sourceUrl": "https://www.youtube.com/watch?v=-P-g5GgpWFM", "timestamp": "3:13" },
+    { "name": "Flower Power", "requirements": ["Stock x5", "Checkout x3"], "reward": "150 cash", "sourceUrl": "https://www.youtube.com/watch?v=-P-g5GgpWFM", "timestamp": "3:13" }
   ],
   "staff": [
     { "name": "Robin", "role": "Gardener", "hireCost": "1,500 cash", "sourceUrl": "https://www.youtube.com/watch?v=51A1WZMnf_c", "timestamp": "0:27" },

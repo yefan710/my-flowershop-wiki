@@ -1,7 +1,7 @@
 {
   "status": "pass",
   "checkedAt": "2026-09-16T10:55:56.8440944+08:00",
-  "contentFingerprint": "sha256:727da77199ebbe3ddf928b4123d8b5bd82e1662ebd1a263e0f1f887938b554a3",
+  "contentFingerprint": "sha256:e17f578c37e432edc7552d443665879c32b522b9c82ef7306488de5273c8653b",
   "pagesReviewed": 17,
   "checks": {
     "allPublicRoutesReviewed": true,
@@ -170,5 +170,6 @@
       "factsMatchGate1": true,
       "status": "pass"
     }
-  ]
+  ],
+  "incrementalReview": "2026-09-16: pre-change fingerprint exactly matched stored Gate 2. Reviewed the only changed public TSX (money-guide): quest timestamp 3:43 to 3:13, confirmed against local t-193.jpg and t-085.jpg. Historical numbers, publication date, purpose, next actions, metadata and layout unchanged; JSON quest rows and source candidate map corrected consistently. See work/intent-audit-2026-09-16/report.md."
 }

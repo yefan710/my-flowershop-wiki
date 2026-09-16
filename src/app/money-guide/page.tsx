@@ -22,7 +22,7 @@ export default function MoneyGuidePage() {
         <div className="inline-actions"><Link className="button button-primary" href="/beginner-guide#sell">Start at the sales step</Link><a className="button button-secondary" href="https://www.youtube.com/watch?v=-P-g5GgpWFM" target="_blank" rel="noreferrer">Watch the dated cash guide</a></div>
       </PageHero>
 
-      <ContentSection eyebrow="Quest cash" title="Two early quest cards observed in one session" intro={`Observed ${gameData.observedAt} at 3:43 in gameplay published Aug 8, 2026. Quest availability may depend on your progress or the current game build.`}>
+      <ContentSection eyebrow="Quest cash" title="Two early quest cards observed in one session" intro={`Observed ${gameData.observedAt} at 3:13 in gameplay published Aug 8, 2026. Quest availability may depend on your progress or the current game build.`}>
         <table className="system-table">
           <thead><tr><th>Quest</th><th>Requirements</th><th>Reward</th><th>Source</th></tr></thead>
           <tbody>{gameData.quests.map((quest) => <tr key={quest.name}><td>{quest.name}</td><td>{quest.requirements.join("; ")}</td><td>{quest.reward}</td><td><a className="text-link" href={quest.sourceUrl} target="_blank" rel="noreferrer">Video at {quest.timestamp}</a></td></tr>)}</tbody>
