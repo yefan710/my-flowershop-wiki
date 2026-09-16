@@ -1,7 +1,7 @@
 {
   "status": "pass",
   "checkedAt": "2026-09-16T10:55:56.8440944+08:00",
-  "contentFingerprint": "sha256:e17f578c37e432edc7552d443665879c32b522b9c82ef7306488de5273c8653b",
+  "contentFingerprint": "sha256:45b11dac6338e8077527083fb93a99b53df11ef2b2fecbbe0095bee53b4ed17c",
   "pagesReviewed": 17,
   "checks": {
     "allPublicRoutesReviewed": true,
@@ -171,5 +171,6 @@
       "status": "pass"
     }
   ],
-  "incrementalReview": "2026-09-16: pre-change fingerprint exactly matched stored Gate 2. Reviewed the only changed public TSX (money-guide): quest timestamp 3:43 to 3:13, confirmed against local t-193.jpg and t-085.jpg. Historical numbers, publication date, purpose, next actions, metadata and layout unchanged; JSON quest rows and source candidate map corrected consistently. See work/intent-audit-2026-09-16/report.md."
+  "incrementalReview": "2026-09-16: pre-change fingerprint exactly matched stored Gate 2. Reviewed the only changed public TSX (money-guide): quest timestamp 3:43 to 3:13, confirmed against local t-193.jpg and t-085.jpg. Historical numbers, publication date, purpose, next actions, metadata and layout unchanged; JSON quest rows and source candidate map corrected consistently. See work/intent-audit-2026-09-16/report.md.",
+  "cleanCheckoutReview": "2026-09-16: 35 fingerprint input files matched reviewed workspace after CRLF-to-LF normalization; no semantic differences. Fingerprint records Git LF checkout (core.autocrlf=false, core.eol=lf), see clean-eol-proof.json."
 }
