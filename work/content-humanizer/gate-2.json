@@ -1,0 +1,174 @@
+{
+  "status": "pass",
+  "checkedAt": "2026-09-16T10:55:56.8440944+08:00",
+  "contentFingerprint": "sha256:727da77199ebbe3ddf928b4123d8b5bd82e1662ebd1a263e0f1f887938b554a3",
+  "pagesReviewed": 17,
+  "checks": {
+    "allPublicRoutesReviewed": true,
+    "firstViewportAnswersUserPurpose": true,
+    "naturalNextActionVisible": true,
+    "internalWorkflowLanguageAbsent": true,
+    "aiPatternClustersAbsent": true,
+    "factsNumbersDatesLinksPreserved": true,
+    "externalSourcePolicyMatchesGate1": true,
+    "unprocessedFieldsRemainOpenOrBlocked": true,
+    "competitorExpressionAndStructureReuseAbsent": true,
+    "altMetadataControlsAndEmptyStatesReviewed": true,
+    "analyticsBehaviorMatchesPrivacyCopy": true
+  },
+  "routeAudits": [
+    {
+      "route": "/",
+      "aboveFoldAnswersPurpose": true,
+      "internalSeoResearchLanguageAbsent": true,
+      "aiPatternClustersAbsent": true,
+      "nextStepVisible": true,
+      "factsMatchGate1": true,
+      "status": "pass"
+    },
+    {
+      "route": "/about",
+      "aboveFoldAnswersPurpose": true,
+      "internalSeoResearchLanguageAbsent": true,
+      "aiPatternClustersAbsent": true,
+      "nextStepVisible": true,
+      "factsMatchGate1": true,
+      "status": "pass"
+    },
+    {
+      "route": "/beginner-guide",
+      "aboveFoldAnswersPurpose": true,
+      "internalSeoResearchLanguageAbsent": true,
+      "aiPatternClustersAbsent": true,
+      "nextStepVisible": true,
+      "factsMatchGate1": true,
+      "status": "pass"
+    },
+    {
+      "route": "/bouquets",
+      "aboveFoldAnswersPurpose": true,
+      "internalSeoResearchLanguageAbsent": true,
+      "aiPatternClustersAbsent": true,
+      "nextStepVisible": true,
+      "factsMatchGate1": true,
+      "status": "pass"
+    },
+    {
+      "route": "/controls",
+      "aboveFoldAnswersPurpose": true,
+      "internalSeoResearchLanguageAbsent": true,
+      "aiPatternClustersAbsent": true,
+      "nextStepVisible": true,
+      "factsMatchGate1": true,
+      "status": "pass"
+    },
+    {
+      "route": "/flowers",
+      "aboveFoldAnswersPurpose": true,
+      "internalSeoResearchLanguageAbsent": true,
+      "aiPatternClustersAbsent": true,
+      "nextStepVisible": true,
+      "factsMatchGate1": true,
+      "status": "pass"
+    },
+    {
+      "route": "/game-passes",
+      "aboveFoldAnswersPurpose": true,
+      "internalSeoResearchLanguageAbsent": true,
+      "aiPatternClustersAbsent": true,
+      "nextStepVisible": true,
+      "factsMatchGate1": true,
+      "status": "pass"
+    },
+    {
+      "route": "/growth",
+      "aboveFoldAnswersPurpose": true,
+      "internalSeoResearchLanguageAbsent": true,
+      "aiPatternClustersAbsent": true,
+      "nextStepVisible": true,
+      "factsMatchGate1": true,
+      "status": "pass"
+    },
+    {
+      "route": "/gems-guide",
+      "aboveFoldAnswersPurpose": true,
+      "internalSeoResearchLanguageAbsent": true,
+      "aiPatternClustersAbsent": true,
+      "nextStepVisible": true,
+      "factsMatchGate1": true,
+      "status": "pass"
+    },
+    {
+      "route": "/money-guide",
+      "aboveFoldAnswersPurpose": true,
+      "internalSeoResearchLanguageAbsent": true,
+      "aiPatternClustersAbsent": true,
+      "nextStepVisible": true,
+      "factsMatchGate1": true,
+      "status": "pass"
+    },
+    {
+      "route": "/official-links",
+      "aboveFoldAnswersPurpose": true,
+      "internalSeoResearchLanguageAbsent": true,
+      "aiPatternClustersAbsent": true,
+      "nextStepVisible": true,
+      "factsMatchGate1": true,
+      "status": "pass"
+    },
+    {
+      "route": "/privacy-policy",
+      "aboveFoldAnswersPurpose": true,
+      "internalSeoResearchLanguageAbsent": true,
+      "aiPatternClustersAbsent": true,
+      "nextStepVisible": true,
+      "factsMatchGate1": true,
+      "status": "pass"
+    },
+    {
+      "route": "/shop-layout",
+      "aboveFoldAnswersPurpose": true,
+      "internalSeoResearchLanguageAbsent": true,
+      "aiPatternClustersAbsent": true,
+      "nextStepVisible": true,
+      "factsMatchGate1": true,
+      "status": "pass"
+    },
+    {
+      "route": "/sources",
+      "aboveFoldAnswersPurpose": true,
+      "internalSeoResearchLanguageAbsent": true,
+      "aiPatternClustersAbsent": true,
+      "nextStepVisible": true,
+      "factsMatchGate1": true,
+      "status": "pass"
+    },
+    {
+      "route": "/staff-and-upgrades",
+      "aboveFoldAnswersPurpose": true,
+      "internalSeoResearchLanguageAbsent": true,
+      "aiPatternClustersAbsent": true,
+      "nextStepVisible": true,
+      "factsMatchGate1": true,
+      "status": "pass"
+    },
+    {
+      "route": "/terms",
+      "aboveFoldAnswersPurpose": true,
+      "internalSeoResearchLanguageAbsent": true,
+      "aiPatternClustersAbsent": true,
+      "nextStepVisible": true,
+      "factsMatchGate1": true,
+      "status": "pass"
+    },
+    {
+      "route": "/updates-and-rewards",
+      "aboveFoldAnswersPurpose": true,
+      "internalSeoResearchLanguageAbsent": true,
+      "aiPatternClustersAbsent": true,
+      "nextStepVisible": true,
+      "factsMatchGate1": true,
+      "status": "pass"
+    }
+  ]
+}

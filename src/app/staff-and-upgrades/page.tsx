@@ -26,9 +26,19 @@ export default function StaffAndUpgradesPage() {
         <table className="system-table"><thead><tr><th>Upgrade</th><th>Level</th><th>Cost</th><th>Visible effect</th><th>Source</th></tr></thead><tbody>{gameData.upgrades.map((upgrade) => <tr key={`${upgrade.name}-${upgrade.level}`}><td>{upgrade.name}</td><td>{upgrade.level}</td><td>{upgrade.cost}</td><td>{upgrade.effect ?? "Not stated on captured card"}</td><td><a className="text-link" href={upgrade.sourceUrl} target="_blank" rel="noreferrer">Video at {upgrade.timestamp}</a></td></tr>)}</tbody></table>
       </ContentSection>
 
-      <ContentSection eyebrow="Robux options" title="Use Roblox as the final pass price check." intro="At the Aug 11 check, Roblox listed Bigger Backpack at 79 Robux, 2X Cash at 499, 2X Grow Speed at 299, and Customize at 149. Prices and terms can change." raised>
+      <ContentSection eyebrow="Next purchase" title="Choose from the bottleneck you can see now.">
+        <div className="content-grid">
+          <div className="content-card"><h3>Customer traffic is slow</h3><p>Advertising is the only captured upgrade with a stated effect: it boosts customer traffic. The observed offers cost 200 cash for level 1 and 600 cash for level 2.</p></div>
+          <div className="content-card"><h3>You need more room</h3><p>The captured menu listed Garden expansion at 2,000 cash and Shop expansion at 5,000 cash. Their exact capacity gains were not shown, so read the current card before buying.</p></div>
+          <div className="content-card"><h3>Manual work is the problem</h3><p>Robin, Lily, and Nur each appeared as a 1,500-cash Gardener. The source did not show their behaviour after hiring, so confirm the live role description before spending.</p></div>
+        </div>
+        <div className="notice">This is a bottleneck check, not a universal upgrade order. The captured fields do not support a reliable return-on-investment ranking.</div>
+      </ContentSection>
+
+      <ContentSection eyebrow="Robux options" title="Use Roblox as the final pass price check." intro="At the Aug 17 check, Roblox listed Bigger Backpack at 79 Robux, 2X Cash at 499, 2X Grow Speed at 299, Customize at 149, and VIP at 199. The live purchase screen is still the final source for the exact benefits." raised>
         <div className="inline-actions"><Link className="button button-primary" href="/game-passes">Open the pass list</Link><Link className="button button-secondary" href="/official-links">Open the official experience</Link></div>
       </ContentSection>
     </>
   );
 }
+

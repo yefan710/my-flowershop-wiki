@@ -38,6 +38,7 @@ export default function GrowthPage() {
           <li><div><h3>Protect stock with Lock only if needed.</h3><p>The menu says Lock prevents harvesting. Its visible 20x label is not explained in the source, so this guide does not assign that number a meaning.</p></div></li>
         </ol>
         <div className="notice">Quality Fertilizer and Golden Watering Can names were visible lower in the menu, but their complete cards were not readable. Their effects and costs remain unpublished.</div>
+        <div className="inline-actions"><Link className="button button-primary" href="/gems-guide">Find current Gem sources</Link></div>
       </ContentSection>
     </>
   );

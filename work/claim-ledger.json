@@ -1,0 +1,160 @@
+{
+  "schemaVersion": "1.1",
+  "claims": [
+    {
+      "id": "official_identity",
+      "status": "publish",
+      "sourceIds": [
+        "roblox-experience",
+        "roblox-game-api"
+      ],
+      "text": "My Flower Shop is a Roblox Simulation / Tycoon by the verified Magic Box Games group, place 93028168925975 and universe 10324001605."
+    },
+    {
+      "id": "official_game_loop",
+      "status": "publish",
+      "sourceIds": [
+        "roblox-game-api"
+      ],
+      "text": "Players plant, grow and harvest flowers, craft bouquets or floral arrangements, and sell flowers or arrangements to customers."
+    },
+    {
+      "id": "official_progression_systems",
+      "status": "publish",
+      "sourceIds": [
+        "roblox-game-api"
+      ],
+      "text": "The official description lists offline flower growth, staff, shop upgrades, decoration and daily streak rewards."
+    },
+    {
+      "id": "official_metrics_snapshot",
+      "status": "qualified",
+      "sourceIds": [
+        "roblox-game-api"
+      ],
+      "text": "At the Aug 17, 2026 check, Roblox reported 4,615 current players, 5,760,244 visits and 176,074 favorites; client-side refresh may replace this snapshot."
+    },
+    {
+      "id": "official_game_pass_snapshot",
+      "status": "qualified",
+      "sourceIds": [
+        "roblox-game-passes-api"
+      ],
+      "text": "At the Aug 17, 2026 check, Roblox listed Bigger Backpack at 79 Robux, 2X Cash at 499 Robux, 2X Grow Speed at 299 Robux, Customize at 149 Robux and VIP at 199 Robux."
+    },
+    {
+      "id": "reported_beginner_controls",
+      "status": "qualified",
+      "sourceIds": [
+        "youtube-full-guide",
+        "youtube-buildings"
+      ],
+      "text": "Dated Aug 8, 2026 gameplay videos cover a full guide and building controls; interface positions may change."
+    },
+    {
+      "id": "reported_flower_growth_tasks",
+      "status": "dated_fact",
+      "sourceIds": [
+        "youtube-flower-loop",
+        "youtube-growth-supplies"
+      ],
+      "text": "Aug 8 gameplay shows eight seed cards with timers or unlock levels, three visible seed prices, and four supplies with effects plus cash and gem prices. Missing seed prices and higher supply cards stay open."
+    },
+    {
+      "id": "reported_money_task",
+      "status": "dated_fact",
+      "sourceIds": [
+        "youtube-money"
+      ],
+      "text": "Aug 8 gameplay shows Budding Florist paying 100 cash and Flower Power paying 150 cash. Sale footage includes Weekend and Playtime cash bonuses, so base payouts stay open."
+    },
+    {
+      "id": "reported_shelf_crafting_loop",
+      "status": "dated_fact",
+      "sourceIds": [
+        "youtube-money-ricoko-20260811",
+        "youtube-money-challs-20260813"
+      ],
+      "text": "Two independent August 2026 gameplay videos use Tall Bouquet Shelves, harvested flowers, the craft table and shelf stocking as one repeatable money route. Their seed advice conflicts, so no best seed or fixed profit is claimed."
+    },
+    {
+      "id": "reported_gem_sources",
+      "status": "dated_fact",
+      "sourceIds": [
+        "youtube-money-challs-20260813",
+        "youtube-gems-vendoplus-20260808"
+      ],
+      "text": "Dated gameplay shows a 200-Gem Group Reward for liking the game and joining the group, 20 Gems for the Daily Play 20 Minutes quest, and 20 Gems for the Arrangement Ace Main quest. Repeat status is kept open where the source does not establish it."
+    },
+    {
+      "id": "reported_staff_upgrade_tasks",
+      "status": "dated_fact",
+      "sourceIds": [
+        "youtube-staff",
+        "youtube-upgrades"
+      ],
+      "text": "Aug 8 gameplay shows Robin, Lily and Nur as Gardeners at 1,500 cash each, plus four upgrade offers from 200 to 5,000 cash. Gardener behaviour and Cashier details stay open."
+    },
+    {
+      "id": "reported_crafting_task",
+      "status": "dated_fact",
+      "sourceIds": [
+        "youtube-crafting"
+      ],
+      "text": "Aug 8 gameplay shows eight arrangement designs requiring 1 to 12 flowers, seven visible unlock levels, and nine style names. Players choose flower inventory rather than follow one fixed flower-combination recipe."
+    },
+    {
+      "id": "reported_layout_task",
+      "status": "dated_fact",
+      "sourceIds": [
+        "youtube-buildings"
+      ],
+      "text": "Aug 8 gameplay shows eleven display and flower-box build prices from 20 to 500 cash; no best-layout or unshown earnings effect is claimed."
+    },
+    {
+      "id": "fan_site_policy",
+      "status": "publish",
+      "sourceIds": [
+        "site-policy"
+      ],
+      "text": "This independent fan guide does not require Roblox credentials, requests public game counters from the Roblox API on the homepage and sends purchases to Roblox."
+    },
+    {
+      "id": "flower_constants",
+      "status": "dated_fact",
+      "sourceIds": [
+        "youtube-flower-loop",
+        "youtube-growth-supplies",
+        "youtube-money",
+        "youtube-crafting"
+      ],
+      "text": "Eight flower entries have dated timers or unlock levels and three have visible seed prices. Base yields and sale values are not complete and are excluded from profit claims."
+    },
+    {
+      "id": "bouquet_recipes",
+      "status": "dated_fact",
+      "sourceIds": [
+        "youtube-crafting"
+      ],
+      "text": "The processed crafting source supports design capacity, unlock levels and style choices. It does not support fixed flower-combination recipes or arrangement sale values."
+    },
+    {
+      "id": "profit_formula",
+      "status": "blocked",
+      "sourceIds": [],
+      "reason": "Costs, times, yields and sale values are not complete enough for a prefilled profit calculator."
+    },
+    {
+      "id": "best_strategy",
+      "status": "blocked",
+      "sourceIds": [],
+      "reason": "No reproducible same-build comparison has been processed for a fastest-money, best-flower, best-upgrade or best-layout ranking. External Tier and comparison pages are eligible after their criteria are extracted."
+    },
+    {
+      "id": "active_codes",
+      "status": "blocked",
+      "sourceIds": [],
+      "reason": "No processed current code record contains the code string, status date, redemption path and reward. Competitor and community code pages are eligible sources once those fields are captured."
+    }
+  ]
+}

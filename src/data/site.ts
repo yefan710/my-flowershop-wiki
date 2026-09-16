@@ -1,7 +1,7 @@
 export const site = {
   name: "My Flower Shop Wiki",
   gameName: "My Flower Shop",
-  siteUrl: process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3212",
+  siteUrl: process.env.NEXT_PUBLIC_SITE_URL ?? "https://my-flowershop.wiki",
   description:
     "An independent My Flower Shop Roblox wiki with a beginner route, flower and bouquet explainers, shop progression notes, and current official game links.",
   developer: "Magic Box Games",
@@ -10,10 +10,10 @@ export const site = {
   universeId: "10324001605",
   genre: "Simulation / Tycoon",
   gameUrl: "https://www.roblox.com/games/93028168925975/My-Flower-Shop",
-  checkedAt: "2026-08-12T10:00:00+08:00",
-  checkedLabel: "Aug 12, 2026",
-  playing: 7183,
-  favorites: 117537,
+  checkedAt: "2026-08-17T11:30:06+08:00",
+  checkedLabel: "Aug 17, 2026",
+  playing: 4615,
+  favorites: 176074,
   navigation: [
     { href: "/beginner-guide", label: "Beginner guide" },
     { href: "/controls", label: "Controls" },
@@ -33,10 +33,11 @@ export const confirmedSystems = [
 ] as const;
 
 export const gamePasses = [
-  { name: "Bigger Backpack", id: "1917897745", priceRobux: 79 },
-  { name: "2X Cash", id: "1917825672", priceRobux: 499 },
-  { name: "2X Grow Speed", id: "1918275712", priceRobux: 299 },
-  { name: "Customize", id: "1919625697", priceRobux: 149 },
+  { name: "Bigger Backpack", id: "1917897745", priceRobux: 79, isForSale: true },
+  { name: "2X Cash", id: "1917825672", priceRobux: 499, isForSale: true },
+  { name: "2X Grow Speed", id: "1918275712", priceRobux: 299, isForSale: true },
+  { name: "Customize", id: "1919625697", priceRobux: 149, isForSale: true },
+  { name: "VIP", id: "1948778254", priceRobux: 199, isForSale: true },
 ] as const;
 
 export const sourceLinks = [
@@ -75,6 +76,24 @@ export const sourceLinks = [
     publisher: "VendoPlus",
     url: "https://www.youtube.com/watch?v=-P-g5GgpWFM",
     use: "A dated gameplay source for the cash loop and any visible values that can be tied to the Aug 8, 2026 build.",
+  },
+  {
+    name: "My Flower Shop Roblox This Way Make you Money Exploded",
+    publisher: "Ricoko Tutorial & Showcase",
+    url: "https://www.youtube.com/watch?v=oQizfOU9xO8",
+    use: "An Aug 11, 2026 gameplay source for a Tall Bouquet Shelf, crafting, and stocking loop. It does not establish the best seed or a fixed profit rate.",
+  },
+  {
+    name: "Best Methods To Get Money in My Flower Shop",
+    publisher: "CHALLS",
+    url: "https://www.youtube.com/watch?v=FJ7pASLCy6k",
+    use: "An Aug 13, 2026 gameplay source that independently shows the shelf and crafting route, plus the 200-Gem Group Reward card.",
+  },
+  {
+    name: "How to Get More Gems and Diamonds",
+    publisher: "VendoPlus",
+    url: "https://www.youtube.com/watch?v=LoT6qxDOlu0",
+    use: "An Aug 8, 2026 gameplay source for visible Group Reward, Daily quest, Main quest, and Gem shop fields.",
   },
   {
     name: "How to add and hire staff",
@@ -116,7 +135,7 @@ export const sourceLinks = [
     name: "Roblox game passes API",
     publisher: "Roblox",
     url: `https://apis.roblox.com/game-passes/v1/universes/${site.universeId}/game-passes?passView=Full&pageSize=100`,
-    use: "Current game pass names, product IDs, and listed Robux prices at the Aug 11, 2026 check.",
+    use: "Current game pass names, product IDs, sale status, and listed Robux prices at the Aug 17, 2026 check.",
   },
 ] as const;
 
@@ -145,4 +164,11 @@ export const reviewedPages = [
     title: "Use early quests to plan cash",
     summary: "See two observed quest rewards, then compare staff, upgrade, and display costs without a guessed profit ranking.",
   },
+  {
+    href: "/gems-guide",
+    label: "Gems guide",
+    title: "Claim visible Gem rewards first",
+    summary: "Check the dated Group Reward, Daily quest, and Main quest amounts before comparing Gem and cash supply prices.",
+  },
 ] as const;
+

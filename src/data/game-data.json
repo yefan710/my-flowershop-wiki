@@ -57,6 +57,24 @@
     { "name": "Tall Bouquet Shelf", "cost": "500 cash", "timestamp": "0:44" }
   ],
   "displaySourceUrl": "https://www.youtube.com/watch?v=N_3ZvYuxGiY",
+  "moneyLoop": {
+    "observedAt": "2026-08-24",
+    "sharedSteps": [
+      "Use Tall Bouquet Shelves to create arrangement display capacity",
+      "Keep the craft table supplied with harvested flowers",
+      "Craft arrangements, stock the shelves, and repeat as stock sells"
+    ],
+    "sources": [
+      { "publisher": "Ricoko Tutorial & Showcase", "url": "https://www.youtube.com/watch?v=oQizfOU9xO8", "publishedAt": "2026-08-11" },
+      { "publisher": "CHALLS", "url": "https://www.youtube.com/watch?v=FJ7pASLCy6k", "publishedAt": "2026-08-13" }
+    ],
+    "conflict": "The videos disagree on seed choice, so they do not support a best-seed or fixed-profit claim."
+  },
+  "gemSources": [
+    { "name": "Group Reward", "action": "Like the game and join the group", "reward": "200 Gems", "repeatStatus": "A claim button is shown; repeat availability was not established", "sourceUrl": "https://www.youtube.com/watch?v=FJ7pASLCy6k", "publishedAt": "2026-08-13" },
+    { "name": "Daily quest", "action": "Play for 20 minutes", "reward": "20 Gems", "repeatStatus": "Shown on the Daily tab with a refresh timer", "sourceUrl": "https://www.youtube.com/watch?v=LoT6qxDOlu0", "publishedAt": "2026-08-08" },
+    { "name": "Arrangement Ace", "action": "Complete the current Main quest requirements", "reward": "20 Gems", "repeatStatus": "Shown on the Main tab; repeat availability was not established", "sourceUrl": "https://www.youtube.com/watch?v=LoT6qxDOlu0", "publishedAt": "2026-08-08" }
+  ],
   "blocked": [
     "Base flower and arrangement sale values",
     "Profit per minute and best money rankings",

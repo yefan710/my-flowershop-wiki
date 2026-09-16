@@ -1,11 +1,15 @@
 import type { Metadata } from "next";
-import Script from "next/script";
 import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { site } from "@/data/site";
+import { createAdsterraPopTelemetryScript } from "@/lib/adsterra-pop-telemetry";
 
-const adsterraBannerHtml = `<script type="text/javascript">atOptions = {'key' : 'e1720d76d8e926cb317cb2690000460f','format' : 'iframe','height' : 250,'width' : 300,'params' : {}};</script><script type="text/javascript" src="https://www.highperformanceformat.com/e1720d76d8e926cb317cb2690000460f/invoke.js"></script>`;
+const adsterraPopTelemetry = createAdsterraPopTelemetryScript({
+  scriptUrl: "https://globalimmaturelunatic.com/6b/f8/ab/6bf8ab603b8273c44943ed513110afd7.js",
+  siteDomain: "my-flowershop.wiki",
+});
+const adsterraBannerHtml = `<script data-cfasync="false" type="text/javascript">atOptions = {'key' : 'e1720d76d8e926cb317cb2690000460f','format' : 'iframe','height' : 250,'width' : 300,'params' : {}};</script><script data-cfasync="false" type="text/javascript" src="https://globalimmaturelunatic.com/e1720d76d8e926cb317cb2690000460f/invoke.js"></script>`;
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.siteUrl),
@@ -28,9 +32,9 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   return (
     <html lang="en">
       <head>
-        <Script src="https://pl30949389.effectivecpmnetwork.com/6b/f8/ab/6bf8ab603b8273c44943ed513110afd7.js" strategy="beforeInteractive" />
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-1QNSJGN604" />
         <script dangerouslySetInnerHTML={{ __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{analytics_storage:'granted',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});gtag('js',new Date());gtag('config','G-1QNSJGN604');` }} />
+        <script data-cfasync="false" id="adsterra-pop-telemetry" dangerouslySetInnerHTML={{ __html: adsterraPopTelemetry }} />
       </head>
       <body>
         <Header />

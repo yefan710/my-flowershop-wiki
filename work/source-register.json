@@ -1,0 +1,162 @@
+{
+  "checkedAt": "2026-08-24T02:30:00+08:00",
+  "sources": [
+    {
+      "id": "roblox-experience",
+      "kind": "official Roblox experience",
+      "url": "https://www.roblox.com/games/93028168925975/My-Flower-Shop",
+      "use": "identity, verified developer, game destination, official description and spending check"
+    },
+    {
+      "id": "roblox-game-api",
+      "kind": "official Roblox API",
+      "url": "https://games.roblox.com/v1/games?universeIds=10324001605",
+      "use": "identity, genre, description, current players, visits, favorites, created and updated timestamps"
+    },
+    {
+      "id": "roblox-game-passes-api",
+      "kind": "official Roblox API",
+      "url": "https://apis.roblox.com/game-passes/v1/universes/10324001605/game-passes?passView=Full&pageSize=100",
+      "use": "game pass names, product IDs, sale status and listed Robux prices at the Aug 17, 2026 check"
+    },
+    {
+      "id": "roblox-group-api",
+      "kind": "official Roblox API",
+      "url": "https://groups.roblox.com/v1/groups/15211300",
+      "use": "verified developer group identity and current group shout status"
+    },
+    {
+      "id": "youtube-full-guide",
+      "kind": "dated gameplay video",
+      "url": "https://www.youtube.com/watch?v=gmWVnToeDCk",
+      "publisher": "VendoPlus",
+      "publishedAt": "2026-08-08",
+      "use": "eligible fact source for beginner actions and interface labels; fields keep the published date and game context",
+      "processingStatus": "topic_mapped_no_additional_public_fields"
+    },
+    {
+      "id": "youtube-homepage-hero-frame",
+      "kind": "dated gameplay video frame",
+      "url": "https://www.youtube.com/watch?v=ab6vz83v4d4&t=724s",
+      "publisher": "AccelToWin",
+      "timestamp": "12:04",
+      "use": "homepage hero image with visible source credit; visual context only"
+    },
+    {
+      "id": "youtube-beginner-feature-frame",
+      "kind": "dated gameplay video frame",
+      "url": "https://www.youtube.com/watch?v=GI2Wkuz6z6o&t=3s",
+      "publisher": "Velace",
+      "timestamp": "0:03",
+      "use": "full-frame beginner feature image with visible source credit; visual context only"
+    },
+    {
+      "id": "youtube-flower-loop",
+      "kind": "dated gameplay video",
+      "url": "https://www.youtube.com/watch?v=S97Z4J05VmU",
+      "publisher": "VendoPlus",
+      "publishedAt": "2026-08-08",
+      "use": "eligible fact source for seed, planting and harvesting fields",
+      "processingStatus": "fields_extracted_with_timestamped_frames"
+    },
+    {
+      "id": "youtube-growth-supplies",
+      "kind": "dated gameplay video",
+      "url": "https://www.youtube.com/watch?v=02kx7GcM-kA",
+      "publisher": "VendoPlus",
+      "publishedAt": "2026-08-08",
+      "use": "eligible fact source for supplies and visible growth effects",
+      "processingStatus": "fields_extracted_with_timestamped_frames"
+    },
+    {
+      "id": "youtube-money",
+      "kind": "dated gameplay video",
+      "url": "https://www.youtube.com/watch?v=-P-g5GgpWFM",
+      "publisher": "VendoPlus",
+      "publishedAt": "2026-08-08",
+      "use": "eligible fact source for cash-loop fields and visible values",
+      "processingStatus": "fields_extracted_with_timestamped_frames_and_bonus_conflict"
+    },
+    {
+      "id": "youtube-money-ricoko-20260811",
+      "kind": "dated gameplay video",
+      "url": "https://www.youtube.com/watch?v=oQizfOU9xO8",
+      "publisher": "Ricoko Tutorial & Showcase",
+      "publishedAt": "2026-08-11",
+      "use": "eligible fact source for the Tall Bouquet Shelf, crafting and stocking route; seed and profit claims remain conflicted",
+      "processingStatus": "authenticated_asr_frames_and_field_mapping_complete"
+    },
+    {
+      "id": "youtube-money-challs-20260813",
+      "kind": "dated gameplay video",
+      "url": "https://www.youtube.com/watch?v=FJ7pASLCy6k",
+      "publisher": "CHALLS",
+      "publishedAt": "2026-08-13",
+      "use": "independent source for the Tall Bouquet Shelf route and visible 200-Gem Group Reward card",
+      "processingStatus": "authenticated_asr_frames_and_field_mapping_complete"
+    },
+    {
+      "id": "youtube-gems-vendoplus-20260808",
+      "kind": "dated gameplay video",
+      "url": "https://www.youtube.com/watch?v=LoT6qxDOlu0",
+      "publisher": "VendoPlus",
+      "publishedAt": "2026-08-08",
+      "use": "eligible fact source for visible Group Reward, Daily quest, Main quest and Gem shop fields",
+      "processingStatus": "authenticated_asr_frames_and_field_mapping_complete"
+    },
+    {
+      "id": "youtube-staff",
+      "kind": "dated gameplay video",
+      "url": "https://www.youtube.com/watch?v=51A1WZMnf_c",
+      "publisher": "VendoPlus",
+      "publishedAt": "2026-08-08",
+      "use": "eligible fact source for staff names, roles and visible costs",
+      "processingStatus": "fields_extracted_with_timestamped_frames_and_open_effects"
+    },
+    {
+      "id": "youtube-upgrades",
+      "kind": "dated gameplay video",
+      "url": "https://www.youtube.com/watch?v=S6G1hq8_njY",
+      "publisher": "VendoPlus",
+      "publishedAt": "2026-08-08",
+      "use": "eligible fact source for upgrade names, effects and visible costs",
+      "processingStatus": "fields_extracted_with_timestamped_frames"
+    },
+    {
+      "id": "youtube-crafting",
+      "kind": "dated gameplay video",
+      "url": "https://www.youtube.com/watch?v=WH8jO_1LBh8",
+      "publisher": "VendoPlus",
+      "publishedAt": "2026-08-08",
+      "use": "eligible fact source for recipe ingredients, amounts and outputs",
+      "processingStatus": "fields_extracted_with_timestamped_frames"
+    },
+    {
+      "id": "youtube-buildings",
+      "kind": "dated gameplay video",
+      "url": "https://www.youtube.com/watch?v=N_3ZvYuxGiY",
+      "publisher": "VendoPlus",
+      "publishedAt": "2026-08-08",
+      "use": "eligible fact source for building controls and visible layout actions",
+      "processingStatus": "fields_extracted_with_timestamped_frames"
+    },
+    {
+      "id": "demand-research",
+      "kind": "internal demand and topic research",
+      "paths": [
+        "C:/Users/110/Documents/go to sea/work/my-flower-shop-demand-research-20260811.md",
+        "C:/Users/110/Documents/go to sea/work/my-flower-shop-demand-research-20260811.json"
+      ],
+      "use": "route priority only; individual cited web pages discovered by research may become fact sources after field extraction"
+    },
+    {
+      "id": "site-policy",
+      "kind": "site policy",
+      "paths": [
+        "src/app/privacy-policy/page.tsx",
+        "src/app/terms/page.tsx"
+      ],
+      "use": "fan-guide disclosure, privacy and use limits"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "status": "pass",
+  "checkedAt": "2026-08-24T02:35:00+08:00",
+  "humanizer": {
+    "version": "2.9.1",
+    "mode": "embedded",
+    "packageValidation": "pass"
+  },
+  "inputFingerprint": "sha256:da8e895975ec200313400019b7a4176a1bd25452f3128c3a9bd312b577cafd93",
+  "protectedArtifactTypes": [
+    "raw evidence",
+    "code",
+    "JSON",
+    "Schema",
+    "URL",
+    "numeric fields"
+  ],
+  "checks": {
+    "pagePurposeFrozenBeforeCopy": true,
+    "onlyMappedFactsEnteredPublicDrafts": true,
+    "externalSourcesEligibleWithoutOfficialOnlyGate": true,
+    "externalFactFieldsKeepDatesContextAndOpenFields": true,
+    "competitorExpressionAndStructureReuseBlocked": true,
+    "blockedClaimsExcludedFromAnswers": true,
+    "firstAnswerLeadsEachRoute": true,
+    "internalResearchLanguageRemoved": true,
+    "factsNumbersDatesLinksPreserved": true,
+    "aiPatternClustersRemoved": true,
+    "emAndEnDashesAbsent": true
+  },
+  "summary": "Seventeen route briefs were reviewed in embedded mode. Two independent gameplay videos support the Tall Bouquet Shelf, crafting and stocking route while conflicting seed advice remains excluded. Dated game UI supports three visible Gem rewards with open repeat conditions where needed. The staff page uses known costs and one stated Advertising effect to guide a bottleneck check without creating a best-upgrade ranking. Source prose and page structures were not reused."
+}

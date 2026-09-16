@@ -38,6 +38,18 @@ export default function MoneyGuidePage() {
         <div className="notice">The sale footage shows Weekend +10% Cash and Playtime +5% Cash bonuses. Those payouts cannot reveal a base flower price, so this guide does not publish profit per minute or a best flower ranking yet.</div>
         <div className="inline-actions"><Link className="button button-primary" href="/shop-layout">Compare display costs</Link><Link className="button button-secondary" href="/staff-and-upgrades">Compare staff and upgrades</Link></div>
       </ContentSection>
+
+      <ContentSection eyebrow="Repeatable loop" title="Connect crafting and shelf stock into one cycle." intro="Two gameplay videos published Aug 11 and Aug 13 used Tall Bouquet Shelves as arrangement display space. Both moved from harvested flowers to the craft table and then to stocked shelves.">
+        <ol className="step-list">
+          {gameData.moneyLoop.sharedSteps.map((step, index) => (
+            <li key={step}><div><h3>Step {index + 1}</h3><p>{step}.</p></div></li>
+          ))}
+        </ol>
+        <div className="notice">{gameData.moneyLoop.conflict} Check the flowers and unlocks available in your server instead of following a fixed seed ranking.</div>
+        <div className="inline-actions">
+          {gameData.moneyLoop.sources.map((source) => <a className="button button-secondary" href={source.url} key={source.url} target="_blank" rel="noreferrer">Watch {source.publisher}</a>)}
+        </div>
+      </ContentSection>
     </>
   );
 }
