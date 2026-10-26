@@ -3,7 +3,7 @@ export const site = {
   gameName: "My Flower Shop",
   siteUrl: process.env.NEXT_PUBLIC_SITE_URL ?? "https://my-flowershop.wiki",
   description:
-    "An independent My Flower Shop Roblox wiki with a beginner route, flower and bouquet explainers, shop progression notes, and current official game links.",
+    "My Flower Shop Roblox wiki and beginner guide: learn planting, bouquets, customer sales, money, staff, upgrades, and open the official Magic Box Games experience.",
   developer: "Magic Box Games",
   developerVerified: true,
   placeId: "93028168925975",

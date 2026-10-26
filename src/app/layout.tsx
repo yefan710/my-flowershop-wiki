@@ -13,12 +13,12 @@ const adsterraBannerHtml = `<script data-cfasync="false" type="text/javascript">
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.siteUrl),
-  title: { default: site.name, template: `%s | ${site.name}` },
+  title: { default: "My Flower Shop Roblox Wiki & Beginner Guide", template: `%s | ${site.name}` },
   description: site.description,
   alternates: { canonical: "/" },
   openGraph: {
     type: "website",
-    title: site.name,
+    title: "My Flower Shop Roblox Wiki & Beginner Guide",
     description: site.description,
     images: [{ url: "/og-default.jpg", width: 1200, height: 630, alt: "My Flower Shop Wiki" }],
   },

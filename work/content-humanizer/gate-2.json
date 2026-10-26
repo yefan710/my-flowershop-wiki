@@ -1,7 +1,7 @@
 {
   "status": "pass",
-  "checkedAt": "2026-09-16T10:55:56.8440944+08:00",
-  "contentFingerprint": "sha256:45b11dac6338e8077527083fb93a99b53df11ef2b2fecbbe0095bee53b4ed17c",
+  "checkedAt": "2026-10-26T15:31:56+08:00",
+  "contentFingerprint": "sha256:9fc0a12754aa2a3fae54c6df1b15018dc06026a31a1a3ed6a8ac01faeaff5837",
   "pagesReviewed": 17,
   "checks": {
     "allPublicRoutesReviewed": true,
@@ -171,6 +171,6 @@
       "status": "pass"
     }
   ],
-  "incrementalReview": "2026-09-16: pre-change fingerprint exactly matched stored Gate 2. Reviewed the only changed public TSX (money-guide): quest timestamp 3:43 to 3:13, confirmed against local t-193.jpg and t-085.jpg. Historical numbers, publication date, purpose, next actions, metadata and layout unchanged; JSON quest rows and source candidate map corrected consistently. See work/intent-audit-2026-09-16/report.md.",
+  "incrementalReview": "2026-10-26: reviewed the homepage metadata, site description and first-view answer changed for the broad My Flower Shop query. The copy now identifies the Roblox experience and Magic Box Games before routing players into the existing flower-to-customer guides. Existing facts, routes, links, numbers, dates, analytics, layout and all inner-page metadata remain unchanged. Prior 2026-09-16 review corrected only the money-guide source timestamp from 3:43 to 3:13.",
   "cleanCheckoutReview": "2026-09-16: 35 fingerprint input files matched reviewed workspace after CRLF-to-LF normalization; no semantic differences. Fingerprint records Git LF checkout (core.autocrlf=false, core.eol=lf), see clean-eol-proof.json."
 }

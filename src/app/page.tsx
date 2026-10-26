@@ -120,7 +120,7 @@ export default function Home() {
             <p className="eyebrow">Independent Roblox player wiki</p>
             <h1 className="hero-title" id="home-title">My Flower <span>Shop Wiki</span></h1>
             <p className="hero-decision">
-              Learn the flower-to-customer loop, find the right guide when a new system appears, and open the official game without digging through unrelated florist results.
+              My Flower Shop is a Roblox flower-store game by Magic Box Games. Learn the flower-to-customer loop, find the right guide for each shop system, and open the official experience without digging through unrelated florist results.
             </p>
             <div className="hero-actions">
               <Link className="button button-primary" href="/beginner-guide">
